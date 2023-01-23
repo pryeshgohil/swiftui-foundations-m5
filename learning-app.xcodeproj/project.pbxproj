@@ -19,6 +19,7 @@
 		BBB19EBB29760D2B00966F5A /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB19EBA29760D2B00966F5A /* Lesson.swift */; };
 		BBB19EBE29760D9E00966F5A /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB19EBD29760D9E00966F5A /* Test.swift */; };
 		BBB19EC129760DD500966F5A /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB19EC029760DD500966F5A /* Question.swift */; };
+		BBC34145297F496D00753DA5 /* HomeViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC34144297F496D00753DA5 /* HomeViewRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		BBB19EBA29760D2B00966F5A /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
 		BBB19EBD29760D9E00966F5A /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		BBB19EC029760DD500966F5A /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		BBC34144297F496D00753DA5 /* HomeViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				BB6DF34D29749E1E00E2D16F /* HomeView.swift */,
+				BBC34144297F496D00753DA5 /* HomeViewRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB6DF34E29749E1E00E2D16F /* HomeView.swift in Sources */,
+				BBC34145297F496D00753DA5 /* HomeViewRow.swift in Sources */,
 				BBB19EC129760DD500966F5A /* Question.swift in Sources */,
 				BBB19EB529760C7700966F5A /* Module.swift in Sources */,
 				BB6DF34C29749E1E00E2D16F /* LearningApp.swift in Sources */,
