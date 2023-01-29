@@ -22,12 +22,22 @@ struct HomeView: View {
                             // Learning Card
                             
                             VStack (spacing: 20) {
-                                HomeViewRow(image: module.content.image,
-                                            title: "Learn \(module.category)",
-                                            description: module.content.description,
-                                            count: "\(module.content.lessons.count) Lessons",
-                                            time: module.content.time)
                                 
+                                NavigationLink(
+                                    destination: ContentView()
+                                        .onAppear(perform: {
+                                            model.beginModule(moduleId: module.id)
+                                        }),
+                                    label: {
+                                        HomeViewRow(image: module.content.image,
+                                                    title: "Learn \(module.category)",
+                                                    description: module.content.description,
+                                                    count: "\(module.content.lessons.count) Lessons",
+                                                    time: module.content.time)
+                                        
+                                    })
+                                
+                           
 
                                 // Test Card
                                 HomeViewRow(image: module.test.image,
@@ -40,12 +50,13 @@ struct HomeView: View {
                             
    
                     }
+                    .accentColor(.black)
                     .padding()
                 }
             }
             .navigationTitle("Get Started")
         }
-       
+
 
     }
 }
