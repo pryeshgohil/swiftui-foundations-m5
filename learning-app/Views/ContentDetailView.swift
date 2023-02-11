@@ -22,6 +22,7 @@ struct ContentDetailView: View {
             }
             
             // TODO: Description
+            CodeTextView()
             
             // Show next lesson button, only if there is a next lesson
             
@@ -47,6 +48,7 @@ struct ContentDetailView: View {
             }
         }
         .padding()
+        .navigationBarTitle(lesson?.title ?? "")
     }
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB04823F2997E79400D62A66 /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB04823E2997E79400D62A66 /* CodeTextView.swift */; };
 		BB4581BF2981E53F00C62665 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4581BE2981E53F00C62665 /* ContentView.swift */; };
 		BB4581C22981EB8000C62665 /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4581C12981EB8000C62665 /* ContentViewRow.swift */; };
 		BB6DF34C29749E1E00E2D16F /* LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6DF34B29749E1E00E2D16F /* LearningApp.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB04823E2997E79400D62A66 /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
 		BB4581BE2981E53F00C62665 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BB4581C12981EB8000C62665 /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
 		BB6DF34829749E1E00E2D16F /* learning-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "learning-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +113,7 @@
 				BB4581BE2981E53F00C62665 /* ContentView.swift */,
 				BB4581C12981EB8000C62665 /* ContentViewRow.swift */,
 				BBE0D9E8298716030056A5EF /* ContentDetailView.swift */,
+				BB04823E2997E79400D62A66 /* CodeTextView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				BB6DF34E29749E1E00E2D16F /* HomeView.swift in Sources */,
 				BBC34145297F496D00753DA5 /* HomeViewRow.swift in Sources */,
 				BBB19EC129760DD500966F5A /* Question.swift in Sources */,
+				BB04823F2997E79400D62A66 /* CodeTextView.swift in Sources */,
 				BBB19EB529760C7700966F5A /* Module.swift in Sources */,
 				BB6DF34C29749E1E00E2D16F /* LearningApp.swift in Sources */,
 				BBB19EBE29760D9E00966F5A /* Test.swift in Sources */,
