@@ -10,6 +10,7 @@
 		BB04823F2997E79400D62A66 /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB04823E2997E79400D62A66 /* CodeTextView.swift */; };
 		BB4581BF2981E53F00C62665 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4581BE2981E53F00C62665 /* ContentView.swift */; };
 		BB4581C22981EB8000C62665 /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4581C12981EB8000C62665 /* ContentViewRow.swift */; };
+		BB5D6B3729A2421F00E4A53C /* RectangleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5D6B3629A2421F00E4A53C /* RectangleCard.swift */; };
 		BB6DF34C29749E1E00E2D16F /* LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6DF34B29749E1E00E2D16F /* LearningApp.swift */; };
 		BB6DF34E29749E1E00E2D16F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6DF34D29749E1E00E2D16F /* HomeView.swift */; };
 		BB6DF35029749E1F00E2D16F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB6DF34F29749E1F00E2D16F /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 		BB04823E2997E79400D62A66 /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
 		BB4581BE2981E53F00C62665 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BB4581C12981EB8000C62665 /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
+		BB5D6B3629A2421F00E4A53C /* RectangleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleCard.swift; sourceTree = "<group>"; };
 		BB6DF34829749E1E00E2D16F /* learning-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "learning-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB6DF34B29749E1E00E2D16F /* LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningApp.swift; sourceTree = "<group>"; };
 		BB6DF34D29749E1E00E2D16F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				BB4581C12981EB8000C62665 /* ContentViewRow.swift */,
 				BBE0D9E8298716030056A5EF /* ContentDetailView.swift */,
 				BB04823E2997E79400D62A66 /* CodeTextView.swift */,
+				BB5D6B3629A2421F00E4A53C /* RectangleCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				BB4581C22981EB8000C62665 /* ContentViewRow.swift in Sources */,
 				BB6DF34E29749E1E00E2D16F /* HomeView.swift in Sources */,
 				BBC34145297F496D00753DA5 /* HomeViewRow.swift in Sources */,
+				BB5D6B3729A2421F00E4A53C /* RectangleCard.swift in Sources */,
 				BBB19EC129760DD500966F5A /* Question.swift in Sources */,
 				BB04823F2997E79400D62A66 /* CodeTextView.swift in Sources */,
 				BBB19EB529760C7700966F5A /* Module.swift in Sources */,

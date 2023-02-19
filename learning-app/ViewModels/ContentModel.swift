@@ -22,8 +22,10 @@ class ContentModel : ObservableObject {
     
     // Current lesson explation
     @Published var lessonDescription = NSAttributedString()
-    
     var styleData: Data?
+    
+    // Current selected content and test
+    @Published var currentContentSelected:Int?
     
     init() {
         getLocalData()
